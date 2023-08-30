@@ -1,0 +1,76 @@
+body {
+    background: #333;
+}
+
+#calculator {
+    display: grid;
+    display: inline-block;
+    grid-template-columns: (4, auto);
+    text-align: center;
+}
+
+#result {
+    background-color: #223850;
+    height: 120px;
+    width: 332px;
+    color: #fff;
+    font-size: 70px;
+    font-family: Roboto;
+}
+
+#calculator {
+    left: 50%;
+    top: 30%;
+    position:absolute
+}
+
+#calculator button {
+    border: #fff;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+#second-row button, #third-row button, #first-row button, #one, #two, #three, #point {
+    width: 80px;
+    height: 80px;
+}
+
+#calculator button:active {
+    opacity: 0.9;
+}
+
+#first-row button {
+    background-color: cyan;
+}
+
+#one, #two, #three {
+    vertical-align: top;
+}
+
+#second-row button, #third-row button, #one, #two, #three, #point, #zero {
+    background-color: #223850;
+}
+
+#equal-sign{
+    height: 164px;
+    width: 80px;
+    background-color: orange;
+    margin-left: 0.5px;
+    margin-top: 1px;
+}
+
+#zero {
+    width: 164px;
+    height: 80px;
+}
+
+#fifth-row {
+    left: 0;
+    display: inline;
+    margin-top: -83px;
+    position: absolute;
+    vertical-align: top;
+    cursor: pointer;
+}
